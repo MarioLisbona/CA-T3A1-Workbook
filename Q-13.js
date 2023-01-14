@@ -11,9 +11,9 @@ class Car {
     }
 }
   
-//Create a class Model that extends or inherits from th class Car
+//Create a class Model that extends or inherits from the class Car
 // the constructor takes two arguments, brand and mod
-// brand will be inherited from the parent class with the super function
+// the assigning of the value of the argument brand will be inherited from the parent class with the super function
 // assign this.model property to the value of the mod argument
 class Model extends Car {
     constructor(brand, mod) {
@@ -49,7 +49,7 @@ function randomIntFromInterval(min,max) { // min and max included
     // so the value will basically be between 0 - 0.999999...
 
     // using the return value of Math.random and passing it as an argument to Math.floor will result
-    // in a whole integer being returned, basically it will truncate all the decimal places.
+    // in a whole integer being returned, essentially it will truncate all the decimal places.
     // Math.floor(Math.random()) will always return 0 because the max range of math.random is 0.999999...
 
     // We need to make the range larger. Multiplying Math.random() by an integer will increase the range by a factor of the multiplier
@@ -68,7 +68,7 @@ function randomIntFromInterval(min,max) { // min and max included
 
     // This range is the correct length, but has the wrong staring point because the range of Math.random() will always start at 0
     // To adjust for this we can add the min value to the end of the formula then it will bring the starting point of the range
-    // to the correct position (the value of min is 8 so 8 + 0 is the new starting point for the range)
+    // to the correct position (the value of min is 8, so 8 + 0 is the new starting point for the range)
 
     // let max = 12
     // let min = 8
